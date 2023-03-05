@@ -69,6 +69,7 @@ public class Delivery implements Comparable<Delivery> {
    * @param other is the Delivery object being compared to this one
    * 
    * @return -1 if the other has a higher priority, 1 if this object has the higher priority
+   TODO: Fix this so it returns 0 like a normal compareTo
    *
    */
   @Override
